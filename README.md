@@ -14,7 +14,14 @@ All datasets can be found under
             > datasets
                 > univariate
 ````
-New datasets need to be pasted as a folder, containing the *TRAIN* and *TEST* file, into the *univariate* folder.
+New datasets need to be pasted as a folder containing the *TRAIN* and *TEST* file into the *univariate* folder. E.g.
+```
+> ...
+    > univariate
+        > GunPoint
+            > GunPoint_TEST
+            > GunPoint_TRAIN
+````
 
 To generate a CSV file run `UCRClassificationTest.java`. The wished datasets can be established in `datasets`:
 ```Java
@@ -24,7 +31,7 @@ public static String[] datasets = new String[]{
     "GunPoint","CBF","Beef"
 };
 ```
-In the example above WEASEL generates three CSV files for three different datasets (GunPoint, CBF and Beef). It is **crucial** that the entered names match the names of the dataset folders. All generated CSV files can be found inside the WEASEL folder (root folder).
+In the example above WEASEL generates three CSV files for three different datasets (GunPoint, CBF and Beef). It is **crucial** that the entered names match the names of the dataset folders and the corresponding files. All generated CSV files can be found inside the WEASEL folder (root folder).
 
 ## Datasets
 Datasets can be downloaded from [here](http://www.timeseriesclassification.com/dataset.php). For WEASEL the datasets need to be *enter format* formatted.
