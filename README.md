@@ -14,7 +14,7 @@ All datasets can be found under
             > datasets
                 > univariate
 ````
-New datasets need to be pasted as a folder containing the *TRAIN* and *TEST* file into the *univariate* folder.
+New datasets need to be pasted as a folder, containing the *TRAIN* and *TEST* file, into the *univariate* folder.
 
 To generate a CSV file run `UCRClassificationTest.java`. The wished datasets can be established in `datasets`:
 ```Java
