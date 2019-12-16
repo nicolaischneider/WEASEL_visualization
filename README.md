@@ -34,4 +34,4 @@ public static String[] datasets = new String[]{
 In the example above WEASEL generates three CSV files for three different datasets (GunPoint, CBF and Beef). It is **crucial** that the entered names match the names of the dataset folders and the corresponding files. All generated CSV files can be found inside the WEASEL folder (root folder).
 
 ## Datasets
-Datasets can be downloaded from [here](http://www.timeseriesclassification.com/dataset.php). For WEASEL the datasets need to be *enter format* formatted.
+Datasets can be downloaded from [here](http://www.cs.ucr.edu/~eamonn/time_series_data/UCR_TS_Archive_2015.zip).
